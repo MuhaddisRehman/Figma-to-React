@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --bg-clr-primary:#1B3764;
+  --bg-clr-secondary:#FFCA42;
+  --txt-clr-primary:#1B3764;
+  --txt-clr-secondary:#FFF;
+  --txt-size-primary:1.2rem;
+  --txt-size-span:14px;
+  --li-margin-left:40px;
+}
+body {
+  font-family: 'Cardo', serif !important;
+  font-size: var(--txt-size-primary);
+  font-weight: 400;
+  color: var(--txt-clr-primary);
+  letter-spacing: 0.02em;
+  -webkit-font-family: 'Cardo', serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+h1{
+  font-size: 3rem;
+}
+h2{
+  font-size: 2.5rem;
+}
+h3{
+  font-size: 2rem;
+}
+h4{
+  font-size: 1.5rem;
+}
+h5{
+  font-size: 1.3rem;
+}
+h6{
+  font-size: 1rem;
+}
+a{
+  text-decoration: none;
+}
+ul li {
+  margin-left: var(--li-margin-left);
+  color: var(--bg-clr-secondary);
+  font-size: 30px;
+}
+
+span{
+  font-size:var(--txt-size-span) ;
+  color: var(--txt-clr-primary);
+}
+ol li{
+  margin-left: var(--li-margin-left);
+  color: var(--txt-clr-primary);
+}
