@@ -39,7 +39,10 @@
 .navRight> ul> li> span{
     align-self: center;
 }
-
+.navRight> ul> li> span> a{
+    text-decoration: none;
+    color: var(--txt-clr-secondary) !important;
+}
 .mediaIcons{
     display: flex;
     justify-content: center;
@@ -52,6 +55,3 @@
 
 
 
-.navbar ul li span {
-    color: var(--txt-clr-secondary) !important;
-}

@@ -21,11 +21,11 @@ const Navbar:FC = () => {
         </div>
         <div className="navRight">
             <ul>
-                <li><span>Home</span></li>
-                <li><span>Pages</span></li>
-                <li><span>About</span></li>
-                <li><span>Services</span></li>
-                <li><span>Contact</span></li>
+                <li><span><a href="#!">Home</a></span></li>
+                <li><span><a href="#!">Pages</a></span></li>
+                <li><span><a href="#!">About</a></span></li>
+                <li><span><a href="#!">Services</a></span></li>
+                <li><span><a href="#!">Contact</a></span></li>
                 <li><span><img src={cartIcon} alt="cart icon" /></span></li>
             </ul>
             
